@@ -216,7 +216,7 @@ out$soil_P_avilable <- out$P
 out$N_fertilizer <- out$nitrogen_rate
 out$K_fertilizer <- out$potassium_rate
 out$P_fertilizer <- out$phosporus_rate
-out <- out[,c('trial_id', 'crop', 'country', 'on_farm','is_survey', 'irrigated', 'start_date', 'end_date','soil_pH', 'soil_SOC', 'soil_N','soil_K', 'N_fertilizer', 'P_fertilizer', 'K_fertilizer', 'yield')]
+out <- out[,c('trial_id', 'crop', 'country','latitude','longitude', 'on_farm','is_survey', 'irrigated', 'start_date', 'end_date','soil_pH', 'soil_SOC', 'soil_N','soil_K', 'N_fertilizer', 'P_fertilizer', 'K_fertilizer', 'yield')]
 
 carobiner::write_files(dset, out, path, dataset_id, group)  
 }
