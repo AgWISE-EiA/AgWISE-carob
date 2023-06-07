@@ -1,0 +1,13 @@
+name,type,unit,required,vocabulary,multiple_allowed,valid_min,valid_max,NAok,description,notes
+plant_N,numeric,g/kg,,,,0,1000,no,N content in harvestable parts at maturity,
+plant_P,numeric,g/kg,,,,0,1000,no,P content in harvestable parts at maturity,
+plant_K,numeric,g/kg,,,,0,1000,no,K content in harvestable parts at maturity,
+plant_S,numeric,g/kg,,,,0,1000,no,S content in harvestable parts at maturity,
+plant_Mg,numeric,g/kg,,,,0,1000,no,Mg content in harvestable parts at maturity,
+plant_Ca,numeric,g/kg,,,,0,1000,no,Ca content in harvestable parts at maturity,
+plant_Fe,numeric,mg/kg,,,,0,1000000,no,Fe content in harvestable parts at maturity,
+plant_Zn,numeric,mg/kg,,,,0,1000000,no,Zn content in harvestable parts at maturity,
+plant_Cu,numeric,mg/kg,,,,0,1000000,no,Cu content in harvestable parts at maturity,
+plant_Mn,numeric,mg/kg,,,,0,1000000,no,Mn content in harvestable parts at maturity,
+plant_B,numeric,mg/kg,,,,0,1000000,no,B content in harvestable parts at maturity,
+plant_Al,numeric,mg/kg,,,,0,1000000,no,Al content in harvestable parts at maturity,
